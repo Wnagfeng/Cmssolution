@@ -88,7 +88,14 @@ const usermenu = [
                 name: '按钮权限控制',
                 icon: 'Document-icon', // Replace with the actual icon component
                 url: '/roles'
+            },
+            {
+                id: 7,
+                name: '动态表格',
+                icon: 'Document-icon', // Replace with the actual icon component
+                url: '/tabel'
             }
+
         ]
     },
     {

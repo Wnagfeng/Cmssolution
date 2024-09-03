@@ -5,6 +5,7 @@ import EmployeeManagement from '../views/EmployeeManagement.vue'
 import DepartmentManagement from '../views/DepartmentManagement.vue'
 import RoleManagement from '../views/RoleManagement.vue'
 import CompanyProfile from '@/views/CompanyProfile.vue'
+import Tabel from '@/views/Tabel.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,7 +75,17 @@ const router = createRouter({
             title: '按钮权限控制',
             icon: "Document"
           }
-        }
+        },
+        {
+          path: 'tabel',
+          name: '动态表格',
+          component: Tabel,
+          meta: {
+            title: '动态表格',
+            icon: "Document"
+          }
+        },
+
       ]
     },
     {
